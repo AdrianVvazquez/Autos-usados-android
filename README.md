@@ -1,6 +1,4 @@
-# Android app
-
-### CRUD para lote de autos usados.
+# Android app. CRUD para lote de autos usados.
 
 ## Herramientas
 ### Android Studio
