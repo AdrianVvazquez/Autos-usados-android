@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Autos Usados</string>
+    <string name="hello">Bievenido usuario, ¡Elige un auto!</string>
+    <string name="btn_search_car_label">buscar</string>
+    <string name="btn_modify_car_label">aceptar</string>
+    <string name="search_car_label">Ingresa id:</string>
+    <string name="activity_main">MainActivity</string>
+    <string name="activity_details">DetailsScreen</string>
+    <string name="add_car_screen">AddScreen</string>
+    <string name="update_car_screen">ModifyScreen</string>
+
+    <string name="new_car_button">Nuevo</string>
+    <string name="modify_car_txt">Modificar</string>
+    <string name="header_title_new_car">Nuevo auto</string>
+    <string name="total_cars_label">Autos en sistema:</string>
+
+    <string name="id_car_label">ID</string>
+    <string name="name_car_label">Nombre</string>
+    <string name="brand_car_label">Marca</string>
+    <string name="model_car_label">Modelo</string>
+    <string name="cylinders_car_label">Cilindros</string>
+
+    <string name="radio_new_car_cylinders_4">4</string>
+    <string name="radio_new_car_cylinders_6">6</string>
+    <string name="radio_new_car_cylinders_8">8</string>
+
+    <string name="price_car_label">Precio</string>
+    <string name="image_car_label">Imagen</string>
+
+    <string name="save_car_label">Guardar</string>
+
+    <string name="dollar_sign">$</string>
+    <string name="double_cero_string">.00</string>
+    <string name="not_image_label">No disponible</string>
+    <string name="price_number_example">1000000</string>
+    <string name="success_example_text">¡Auto agregado!</string>
+    <string name="success_example_text_modify">¡Auto modificado correctamente!</string>
+    <string name="error_example_text">Error.</string>
+
+    <string name="id_car_label_details">ID:</string>
+    <string name="name_car_label_details">Nombre:</string>
+    <string name="brand_car_label_details">Marca:</string>
+    <string name="model_car_label_details">Modelo:</string>
+    <string name="cylinders_car_label_details">Cilindros:</string>
+    <string name="price_car_label_details">Precio:</string>
+
+    <string name="error_404_string">404 not found</string>
+
+</resources>

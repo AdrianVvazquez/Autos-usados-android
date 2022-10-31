@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/header_new_car"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/header_title_new_car"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/total_cars_label"
+                    android:textColor="@color/secondaryBlueDarker" />
+
+                <TextView
+                    android:id="@+id/TotalAutosTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/price_number_example"
+                    android:textColor="@color/secondaryBlueDarker" />
+
+                <Space
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/SuccessAddedTxt"
+                    android:layout_width="109dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/success_example_text"
+                    android:textColor="#2E7D32" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/id_car_label"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NewCarId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/id_car_label"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/name_car_label"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/NewCarName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text|textCapSentences"
+                android:minHeight="48dp"
+                android:text="@string/name_car_label"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                tools:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/brand_car_label"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/NewCarBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text|textCapSentences"
+                android:minHeight="48dp"
+                android:text="@string/brand_car_label"
+                tools:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/model_car_label"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/NewCarModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text|textCapSentences"
+                android:minHeight="48dp"
+                android:text="@string/model_car_label"
+                tools:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/cylinders_car_label"
+                android:textSize="20sp" />
+
+
+            <RadioGroup
+                android:id="@+id/CylindersRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/NewCarCylinders_4"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/radio_new_car_cylinders_4"
+                    tools:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/NewCarCylinders_6"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/radio_new_car_cylinders_6"
+                    tools:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/NewCarCylinders_8"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/radio_new_car_cylinders_8"
+                    tools:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/price_car_label"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingHorizontal="15dp"
+                    android:text="@string/dollar_sign"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/NewCarPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:text="@string/price_number_example"
+                    android:textAlignment="center"
+                    tools:ignore="DuplicateSpeakableTextCheck"
+                    tools:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingHorizontal="15dp"
+                    android:text="@string/double_cero_string"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/image_car_label"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/NewCarImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/not_image_label"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/BtnSaveNewCar"
+                android:layout_width="171dp"
+                android:layout_height="52dp"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/button_new_car_submit"
+                android:baselineAligned="false"
+                android:text="@string/save_car_label" />
+
+            <TextView
+                android:id="@+id/ErrorOnSaveTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/error_example_text"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

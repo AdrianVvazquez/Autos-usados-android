@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/add_icon.xml" value="0.2555" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/button_new_car_submit.xml" value="0.111" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/header_modify_car.xml" value="0.2545" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/header_new.xml" value="0.2555" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/header_new_car.xml" value="0.2545" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2555" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.178" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.178" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2415" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/drawable/listitem_auto_background.xml" value="0.2555" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/add_car_screen.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/detail_screen.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/error_404_page.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/header_new_car.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/listitem_auto.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/layout/modify_screen.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/menu/label_menu.xml" value="0.25" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/menu/list_menu.xml" value="0.264" />
+        <entry key="..\:/Users/AdrianVazquez/AndroidStudioProjects/Act5_LoteCarros_ContextMenu/app/src/main/res/menu/main_menu.xml" value="0.16" />
+        <entry key="..\:/Users/AdrianVazquez/AppData/Local/Android/Sdk/platforms/android-29/data/res/layout/list_content.xml" value="0.2" />
+        <entry key="..\:/Users/AdrianVazquez/AppData/Local/Android/Sdk/platforms/android-29/data/res/layout/simple_list_item_1.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/AdrianVazquez/Downloads/ContextMenu/ContextMenu/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/AdrianVazquez/Downloads/ContextMenu/ContextMenu/app/src/main/res/menu/label_menu.xml" value="0.25" />
+        <entry key="..\:/Users/AdrianVazquez/Downloads/ContextMenu/ContextMenu/app/src/main/res/menu/list_menu.xml" value="0.25" />
+        <entry key="..\:/Users/AdrianVazquez/Downloads/ContextMenu/ContextMenu/app/src/main/res/menu/main_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
